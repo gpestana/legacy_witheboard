@@ -1,0 +1,27 @@
+extends layout
+
+block content
+	body
+
+		user-preferences
+			form(name="login", action="/login", method="post")
+			
+			input(type="text", id="name", placeholder="Guest")
+			input(type="submit", value="Change Name", id="nameButton")
+			br
+			input(type="text", id="width", placeholder="3")
+			input(type="submit", value="Line Width", id="lineWidthButton")
+			br
+			input(type="text", id="color", placeholder="Blue (#6a5acd)")
+			input(type="submit", value="Line Color (RBG)", id="lineColorButton")
+			br
+			br
+
+		center
+			canvas(id="board" width="600" height="400" style='background-color:white;')
+
+
+		script
+			onload = ui();
+			whiteboard();
+
