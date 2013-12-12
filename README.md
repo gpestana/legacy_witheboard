@@ -10,6 +10,7 @@ Used technologies
 * HTML5 (specially canvas)
 * Node.js (express + socket.io)
 * Javascript
+* Jade
 * QUnit
 
 
