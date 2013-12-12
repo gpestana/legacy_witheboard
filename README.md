@@ -8,7 +8,7 @@ Simple real-time multi-user whiteboard application.
 Used technologies
 -------------------------
 * HTML5 (specially canvas)
-* Node.js
+* Node.js (express + socket.io)
 * Javascript
 * QUnit
 
